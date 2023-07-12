@@ -1,0 +1,26 @@
+
+.news-post img{
+    height:100%;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 {
+    font-size:1.35rem;
+}
+.news-post h3 a {
+    color:#e74c3c;
+}
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date:before{
+    padding-right:5px;
+}
+a.readmore {
+    font-size:14px;
+}
+.readmore {
+    color:#e74c3c;
+}
