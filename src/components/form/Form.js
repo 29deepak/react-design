@@ -1,78 +1,54 @@
 import React from 'react'
 import './Form.css'
+import ME from '../../assests/deepak.png'
 const Form = () => {
   return (
-    <div class="container">
-        <h2 class="py-3 text-center">Form Type-1</h2>
+    <div class="container abc">
+        <h2 class="py-3 text-center text-white">New User Sign Up</h2>
         <div class='row py-3'>
             <div class="col-md-6">
-                
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control"/>
+                <div class="col-md-9 ">
+                    <img src={ME}  class="img-fluid"/>
+                        
                 </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="text" value="abc@gmail.com" class="form-control-plaintext" readOnly/>
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" class="form-control"/>
-                    <small class="form-text text-muted">Your password must be 8-20 characters</small>
-                </div>
-                <div class="form-group">
-                    <label>Country</label>
-                    <select name="" id="" class="form-control">
-                        <option>India</option>
-                        <option>USA</option>
-                        <option>Nepal</option>
-                        <option>Russia</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Message</label>
-                    <textarea class="form-control"></textarea>
+            </div>
+            <div class="col-md-4">
+            <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                    <label for="name" class="text-white">First Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter First Name" />
+                    </div>
+                    <div class="col-md-6">
+                    <label for="name" class="text-white">Last Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Last Name" />
+                    </div>
                 </div>
                 
             </div>
-            <div class="col-md-6">
-               <div class="form-group">
-                    <label>File Upload</label><br/>
-                    <input type="file" class="form-control-file"/>
-                </div>
-                <div class="form-group">
-                    <label>Amount</label><br/>
-                    <input type="range" class="form-control-range"/>
-                </div>
-                <div class="form-group">
-                    <label>Hobbies</label><br/>
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="musicCheck"/>
-                    <label for="musicCheck" class="form-check-label">Music</label>
-                    </div>
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="sportCheck"/>
-                    <label for="sportCheck" class="form-check-label">Sports</label>
-                    </div>
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="sportCheck" disabled/>
-                    <label for="sportCheck" class="form-check-label">Sports</label>
-                    </div>
-                    
-                </div>
-                <div class="form-group">
-                    <label>Gender</label><br/>
-                    <div class="form-check">
-                    <input type="radio" class="form-check-input" name="gender" id="maleRadio"/>
-                    <label for="maleRadio" class="form-check-label">Male</label>
-                    </div>
-                    <div class="form-check">
-                    <input type="radio" class="form-check-input" name="gender" id="femaleRadio"/>
-                    <label for="femaleRadio" class="form-check-label">Female</label>
-                    </div>
-                    
-                    
-                </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="text-white">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="text-white">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                <small id="passwordHelp" class="form-text text-white">Password must be Contin 8-20 Characters</small>
+            </div>
+           
+            <div class="form-group">
+                <label for="mobile_number" class="text-white">Mobile Number</label>
+                <input type="password" class="form-control" id="mobile_number" placeholder="Mobile Number" />
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label text-white" for="exampleCheck1">Accept Terms And Conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
             </div>
         </div>
     </div>

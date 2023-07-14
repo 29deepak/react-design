@@ -1,3 +1,7 @@
 .container{
-    border:2px solid black;
+    border:5px solid black;
+    background: url("../../assests/signup.jpg");
+}
+.abc{
+    margin-top: 70px;
 }
