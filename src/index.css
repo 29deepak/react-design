@@ -1,3 +1,18 @@
 .container {
   border: 2px solid black;
 }
+::-webkit-scrollbar{
+  background-color: 11.5rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background:green;
+  border:5px solid transparent;
+  border-radius:9px;
+  background-clip: content-box;
+}

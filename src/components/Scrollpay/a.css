@@ -1,0 +1,42 @@
+.scrollspy-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+  }
+  
+  .scrollspy-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scrollspy-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .scrollspy-nav li a {
+    text-decoration: none;
+  }
+  
+  .scrollspy-content {
+    margin-left: 200px;
+  }
+  
+  .scrollspy-section {
+    min-height: 300px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .scrollspy-section h4 {
+    margin-top: 0;
+  }
+  
+  .scrollspy-section p {
+    margin-bottom: 0;
+  }
+  
+  .scrollspy-nav li.active {
+    font-weight: bold;
+  }
